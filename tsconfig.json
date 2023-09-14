@@ -1,0 +1,13 @@
+{
+  
+  "extends": "./tsconfig.base.json",
+  "include": ["./src/*/*", "./src/*/*/package.json"],
+  "references": [
+    {
+        "path": "./tsconfig.cjs.json"
+    },
+    {
+        "path": "./tsconfig.esm.json"
+    }
+  ]
+}
